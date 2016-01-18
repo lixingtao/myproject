@@ -16,12 +16,15 @@ namespace SlideWindow{
         std::string ip;
         std::string uid;
         int time;
-        Request() : reference(""), pn(0), ip(""), uid(""), time(0) {}
+        std::string qt;
+        std::string preurl;
+        Request() : preurl(""), reference(""), qt(""), pn(0), ip(""), uid(""), time(0) {}
         void print() const{
             printf("ip: %s\t\t", ip.c_str());
             printf("uid: %s\t\t", uid.c_str());
             printf("reference: %s\t\t", reference.c_str());
             printf("pn: %d\t\t", pn);
+            printf("qt: %s\t\t", qt.c_str());
             printf("time: %d\n", time);
         }
     };

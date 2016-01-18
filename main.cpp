@@ -178,12 +178,11 @@ int main(int argc, char *argv[])
 				continue;				/* no more readable descriptors */
 		}
 
-        Request req;
 		for (i = 1; i <= maxi; i++) {	/* check all clients for data */
 			if ( (sockfd = client[i].fd) < 0)
 				continue;
 			if (client[i].revents & (POLLRDNORM | POLLERR)) {
-				if ( (n = read(sockfd, &req, sck_mbuflen)) < 0) {
+				if ( (n = read(sockfd, &buf, sck_mbuflen)) < 0) {
 					if (errno == ECONNRESET) { /*4connection reset by client */
 #ifdef	NOTDEF
 						printf("client[%d] aborted connection\n", i);
@@ -199,13 +198,13 @@ int main(int argc, char *argv[])
 					Close(sockfd);
 					client[i].fd = -1;
 				} else {
+                    Request req;
                     trim(buf);
                     vector<string> ret;
                     mysql->explode(buf, ret);
-                    Request req;
-                    if (ret.size() < 5) continue;
-                    req.ip = ret[0]; req.uid = ret[1]; req.time = atoi(ret[2].c_str()); 
-                    req.reference = ret[3]; req.pn = atoi(ret[3].c_str());
+                    if (ret.size() < 6) continue;
+                    req.time = atoi(ret[0].c_str()); req.ip = ret[1]; req.uid = ret[2];
+                    req.preurl = ret[3]; req.qt = ret[4]; req.pn = atoi(ret[5].c_str());
 
                     Slide_window *p_window;
                     if (sw_map.find(req.ip) == sw_map.end()) {

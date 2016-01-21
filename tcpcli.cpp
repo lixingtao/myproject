@@ -66,7 +66,8 @@ int main(int argc, char **argv)
 	Connect(sockfd, (SA *) &servaddr, sizeof(servaddr));
 
 	char sendline[MAXLINE], recvline[MAXLINE];
-    FILE *fp = fopen("lighttpdsorted", "r");
+    //FILE *fp = fopen("lighttpdsorted", "r");
+    FILE *fp = fopen("error", "r");
     pre_timestamp = 1530000000;
 	while (Fgets(sendline, MAXLINE, fp) != NULL) {
 
@@ -79,7 +80,8 @@ int main(int argc, char **argv)
         req.preurl = ret[3]; req.qt = ret[4]; req.pn = atoi(ret[5].c_str());
 
         timestamp = req.time;
-        sleep(max(0, timestamp - pre_timestamp));
+        //sleep(max(0, timestamp - pre_timestamp));
+        usleep(100000);
         pre_timestamp = timestamp;
 
         Writen(sockfd, sendline, sizeof(sendline));

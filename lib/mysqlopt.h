@@ -1,3 +1,5 @@
+#ifndef mysqlopt
+#define mysqlopt
 #include <cstring>
 #include <cstdlib>
 #include <cstdio>
@@ -77,4 +79,4 @@ class Mysql {
 
         int explode(char s[], std::vector<std::string> &vet, char split_ch = '\t'); //分割失败返回-1,成功返回分割的个数
 };
-
+#endif

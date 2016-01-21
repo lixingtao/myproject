@@ -1,0 +1,589 @@
+./main config/config.conf
+init
+clear, curtime:1436332256, lastesttime:0, maxlen:60
+clear, curtime:23938870, lastesttime:0, maxlen:60
+clear, curtime:398981, lastesttime:0, maxlen:24
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436332256
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:1	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 1
+cnt: 1
+***********
+clear, curtime:1436334366, lastesttime:1436332256, maxlen:60
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334366
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:2	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 2
+cnt: 2
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: geo		time: 1436334367
+it:1	it:1	it:0	
+2
+it:1	it:1	
+last 2s cnt: 2
+it:2	it:0	
+last 2m cnt: 2
+it:3	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 3
+cnt: 3
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: geo		time: 1436334367
+it:2	it:1	it:0	
+3
+it:2	it:1	
+last 2s cnt: 3
+it:3	it:0	
+last 2m cnt: 3
+it:4	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 4
+cnt: 4
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334385
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:4	it:0	
+last 2m cnt: 4
+it:5	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 5
+cnt: 5
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334389
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:5	it:0	
+last 2m cnt: 5
+it:6	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 6
+cnt: 6
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436334407
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:6	it:0	
+last 2m cnt: 6
+it:7	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 7
+cnt: 7
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436334407
+it:2	it:0	it:0	
+2
+it:2	it:0	
+last 2s cnt: 2
+it:7	it:0	
+last 2m cnt: 7
+it:8	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 8
+cnt: 8
+***********
+clear, curtime:1436334774, lastesttime:1436334407, maxlen:60
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334774
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:9	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 9
+cnt: 9
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334775
+it:1	it:1	it:0	
+2
+it:1	it:1	
+last 2s cnt: 2
+it:2	it:0	
+last 2m cnt: 2
+it:10	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 10
+cnt: 10
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334775
+it:2	it:1	it:0	
+3
+it:2	it:1	
+last 2s cnt: 3
+it:3	it:0	
+last 2m cnt: 3
+it:11	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 11
+cnt: 11
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334775
+it:3	it:1	it:0	
+4
+it:3	it:1	
+last 2s cnt: 4
+it:4	it:0	
+last 2m cnt: 4
+it:12	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 12
+cnt: 12
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334776
+it:1	it:3	it:1	
+5
+it:1	it:3	
+last 2s cnt: 4
+it:5	it:0	
+last 2m cnt: 5
+it:13	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 13
+cnt: 13
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334776
+it:2	it:3	it:1	
+6
+it:2	it:3	
+last 2s cnt: 5
+it:6	it:0	
+last 2m cnt: 6
+it:14	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 14
+cnt: 14
+***********
+ip: 111.194.164.188		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436334781
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:6	
+last 2m cnt: 7
+it:15	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 15
+cnt: 15
+***********
+init
+clear, curtime:1436361199, lastesttime:0, maxlen:60
+clear, curtime:23939353, lastesttime:0, maxlen:60
+clear, curtime:398989, lastesttime:0, maxlen:24
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: geo		time: 1436361199
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:1	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 1
+cnt: 16
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: geo		time: 1436361199
+it:2	it:0	it:0	
+2
+it:2	it:0	
+last 2s cnt: 2
+it:2	it:0	
+last 2m cnt: 2
+it:2	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 2
+cnt: 17
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361199
+it:3	it:0	it:0	
+3
+it:3	it:0	
+last 2s cnt: 3
+it:3	it:0	
+last 2m cnt: 3
+it:3	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 3
+cnt: 18
+***********
+clear, curtime:1436361823, lastesttime:1436361199, maxlen:60
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: geo		time: 1436361823
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:4	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 4
+cnt: 19
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: geo		time: 1436361823
+it:2	it:0	it:0	
+2
+it:2	it:0	
+last 2s cnt: 2
+it:2	it:0	
+last 2m cnt: 2
+it:5	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 5
+cnt: 20
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361823
+it:3	it:0	it:0	
+3
+it:3	it:0	
+last 2s cnt: 3
+it:3	it:0	
+last 2m cnt: 3
+it:6	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 6
+cnt: 21
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361828
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:4	it:0	
+last 2m cnt: 4
+it:7	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 7
+cnt: 22
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436361830
+it:1	it:0	it:1	
+2
+it:1	it:0	
+last 2s cnt: 1
+it:5	it:0	
+last 2m cnt: 5
+it:8	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 8
+cnt: 23
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361842
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:5	
+last 2m cnt: 6
+it:9	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 9
+cnt: 24
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361853
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:2	it:5	
+last 2m cnt: 7
+it:10	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 10
+cnt: 25
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361856
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:3	it:5	
+last 2m cnt: 8
+it:11	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 11
+cnt: 26
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361856
+it:2	it:0	it:0	
+2
+it:2	it:0	
+last 2s cnt: 2
+it:4	it:5	
+last 2m cnt: 9
+it:12	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 12
+cnt: 27
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361856
+it:3	it:0	it:0	
+3
+it:3	it:0	
+last 2s cnt: 3
+it:5	it:5	
+last 2m cnt: 10
+it:13	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 13
+cnt: 28
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361860
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:6	it:5	
+last 2m cnt: 11
+it:14	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 14
+cnt: 29
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361863
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:7	it:5	
+last 2m cnt: 12
+it:15	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 15
+cnt: 30
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436361869
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:8	it:5	
+last 2m cnt: 13
+it:16	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 16
+cnt: 31
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361901
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:8	
+last 2m cnt: 9
+it:17	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 17
+cnt: 32
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361901
+it:2	it:0	it:0	
+2
+it:2	it:0	
+last 2s cnt: 2
+it:2	it:8	
+last 2m cnt: 10
+it:18	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 18
+cnt: 33
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361911
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:3	it:8	
+last 2m cnt: 11
+it:19	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 19
+cnt: 34
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361929
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:4	it:8	
+last 2m cnt: 12
+it:20	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 20
+cnt: 35
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361929
+it:2	it:0	it:0	
+2
+it:2	it:0	
+last 2s cnt: 2
+it:5	it:8	
+last 2m cnt: 13
+it:21	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 21
+cnt: 36
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361930
+it:1	it:2	it:0	
+3
+it:1	it:2	
+last 2s cnt: 3
+it:6	it:8	
+last 2m cnt: 14
+it:22	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 22
+cnt: 37
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361941
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:7	it:8	
+last 2m cnt: 15
+it:23	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 23
+cnt: 38
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436361948
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:8	it:8	
+last 2m cnt: 16
+it:24	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 24
+cnt: 39
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361951
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:9	it:8	
+last 2m cnt: 17
+it:25	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 25
+cnt: 40
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361952
+it:1	it:1	it:0	
+2
+it:1	it:1	
+last 2s cnt: 2
+it:10	it:8	
+last 2m cnt: 18
+it:26	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 26
+cnt: 41
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361952
+it:2	it:1	it:0	
+3
+it:2	it:1	
+last 2s cnt: 3
+it:11	it:8	
+last 2m cnt: 19
+it:27	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 27
+cnt: 42
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361952
+it:3	it:1	it:0	
+4
+it:3	it:1	
+last 2s cnt: 4
+it:12	it:8	
+last 2m cnt: 20
+it:28	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 28
+cnt: 43
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361952
+it:4	it:1	it:0	
+5
+it:4	it:1	
+last 2s cnt: 5
+it:13	it:8	
+last 2m cnt: 21
+it:29	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 29
+cnt: 44
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436361957
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:14	it:8	
+last 2m cnt: 22
+it:30	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 30
+cnt: 45
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361961
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:14	
+last 2m cnt: 15
+it:31	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 31
+cnt: 46
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: s		time: 1436361964
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:2	it:14	
+last 2m cnt: 16
+it:32	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 32
+cnt: 47
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436361997
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:3	it:14	
+last 2m cnt: 17
+it:33	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 33
+cnt: 48
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436362031
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:3	
+last 2m cnt: 4
+it:34	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 34
+cnt: 49
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436362032
+it:1	it:1	it:0	
+2
+it:1	it:1	
+last 2s cnt: 2
+it:2	it:3	
+last 2m cnt: 5
+it:35	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 35
+cnt: 50
+***********
+clear, curtime:1436365420, lastesttime:1436362032, maxlen:60
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436365420
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:1	it:35	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 36
+cnt: 51
+***********
+clear, curtime:1436365632, lastesttime:1436365420, maxlen:60
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436365632
+it:1	it:0	it:0	
+1
+it:1	it:0	
+last 2s cnt: 1
+it:1	it:0	
+last 2m cnt: 1
+it:2	it:35	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	it:0	
+last 24h cnt: 37
+cnt: 52
+***********
+ip: 124.65.211.211		uid: lYZWxocm9KflBkalVMODJ3dmd4akloVlpncm5qUllCa1gycllFM25Icm9Oc1JWQVFBQUFBJCQAAAAAAAAAAAEAAAAtKI86gVfQocTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOipnFXoqZxVLU		reference: 		pn: 0		qt: 		time: 1436365633
+it:1	it:1	it:0	
+2

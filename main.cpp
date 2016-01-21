@@ -5,6 +5,8 @@
 #include "configitem.h"
 #include "mysqlopt.h"
 #include "slide_window.h"
+#include "stropt.h"
+
 extern "C" {
 #include "unp.h"
 }
@@ -13,32 +15,17 @@ using namespace configlib;
 using namespace std;
 using namespace SlideWindow;
 
-void trim(char s[]) {
-    if (!s) return;
-    int cur = 0, i = 0;
-    int len = strlen(s);
-
-    i = len - 1;
-    while(i>0 && '\n'==s[i]) s[i--] = 0;
-    i = 0;
-    while ('\n' == s[i]) ++i;
-    for (; i < len; ++i) {
-        s[cur++] = s[i];
-    }
-    s[cur] = 0;
-}
-
 int main(int argc, char *argv[])
 {	
     //
-    if (argc < 2) {
+    if (argc < 2) {/*{{{*/
         cout<<"input configure file name"<<endl;
         return -1;
-    }
+    }/*}}}*/
     string conf_file = argv[1];
 
     //读取配置文件
-    configfile g_File(conf_file);
+    configfile g_File(conf_file);/*{{{*/
     configitem<int> mysql_port(g_File, "mysql", "port", "", 0);
     configitem<std::string> mysql_ip(g_File, "mysql", "ip", "s=-", "Default");
     configitem<std::string> mysql_user(g_File, "mysql", "user", "s=-", "Default");
@@ -53,24 +40,24 @@ int main(int argc, char *argv[])
     configitem<int> socket_maxclientopen(g_File, "socket", "maxclientopen", "", 0);
     configitem<int> socket_listenq(g_File, "socket", "listenq", "", 0);
 	g_File.read();
-
+/*}}}*/
 
     //初始化，连接数据库
-    Mysql *mysql = new Mysql();
+    Mysql *mysql = new Mysql();/*{{{*/
     Mysql_conf *mysql_conf = new Mysql_conf();
     snprintf(mysql_conf->ip, 80, "%s", ((string)mysql_ip).c_str());
     snprintf(mysql_conf->user_name, 80, "%s", ((string)mysql_user).c_str());
     snprintf(mysql_conf->password, 80, "%s", ((string)mysql_password).c_str());
     snprintf(mysql_conf->db_name, 80, "%s", ((string)mysql_dbname).c_str());
     mysql_conf->port = (int)mysql_port;
-    //cout<<mysql_conf->ip<<","<<mysql_conf->user_name<<","<<mysql_conf->password<<","<<mysql_conf->db_name<<","<<mysql_conf->port<<endl;
     if(mysql->init(mysql_conf)){
         cout<<"init error"<<endl;
         return 1;
     }
+/*}}}*/
 
     //数据库操作
-    char sql[sql_maxlen];
+    char sql[sql_maxlen];/*{{{*/
     snprintf(sql, sql_maxlen, "select * from test");
     vector<vector<string> > ret;
     mysql->select(sql, ret, 4);
@@ -79,51 +66,11 @@ int main(int argc, char *argv[])
             printf("%s\t", ret[i][j].c_str());
         }
         cout<<endl;
-    }*/
+    }*//*}}}*/
 
-    //创建套接字
-	/*int					listenfd, connfd;
-	struct sockaddr_in	cliaddr, servaddr;
-
-	listenfd = Socket(AF_INET, SOCK_STREAM, 0);
-
-	bzero(&servaddr, sizeof(servaddr));
-	servaddr.sin_family      = AF_INET;
-	servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
-	servaddr.sin_port        = htons((int)server_port);
-
-	Bind(listenfd, (SA *) &servaddr, sizeof(servaddr));
-
-    //监听
-	Listen(listenfd, LISTENQ);
-
-    char buf[sock_maxbuflen];
-    ssize_t n;
-    Slide_window m_window((int)slideWindow_size);
-    for(;;) {
-        socklen_t clilen = sizeof(cliaddr);
-        //连接建立
-        connfd = Accept(listenfd, (SA *) &cliaddr, &clilen);
-        while ( (n = read(connfd, buf, sock_maxbuflen)) > 0) {
-            trim(buf);
-            vector<string> ret;
-            mysql->explode(buf, ret);
-            Request req;
-            if (ret.size() < 5) continue;
-            req.ip = ret[0]; req.uid = ret[1]; req.time = atoi(ret[2].c_str()); 
-            req.reference = ret[3]; req.pn = atoi(ret[3].c_str());
-            m_window.push_window(req);
-            memset(buf, 0, sizeof(buf));
-            m_window.print_window();
-            strncpy(buf, "request successed", 100);
-            Writen(connfd, buf, 100);
-        }
-
-        Close(connfd);		
-        cout<<"this connect closed"<<endl;
-    }*/
     unordered_map<string, Slide_window*> sw_map; //存储滑动窗口的map
 
+    //创建套接字/*{{{*/
     int i, maxi, listenfd, connfd, sockfd;
     int nready;
     ssize_t n;
@@ -142,7 +89,9 @@ int main(int argc, char *argv[])
     servaddr.sin_addr.s_addr = htonl(INADDR_ANY);
     servaddr.sin_port = htons(SERV_PORT);
 
-    Bind(listenfd, (SA *)&servaddr, sizeof(servaddr));
+    Bind(listenfd, (SA *)&servaddr, sizeof(servaddr));/*}}}*/
+
+    //监听
     Listen(listenfd, sck_listenq);
 
     client[0].fd = listenfd;
@@ -152,10 +101,11 @@ int main(int argc, char *argv[])
     }
     maxi = 0;
 
+    int cnt = 0;
 	for ( ; ; ) {
 		nready = Poll(client, maxi+1, INFTIM);
 
-		if (client[0].revents & POLLRDNORM) {	/* new client connection */
+		if (client[0].revents & POLLRDNORM) {	/* new client connection *//*{{{*/
 			clilen = sizeof(cliaddr);
 			connfd = Accept(listenfd, (SA *) &cliaddr, &clilen);
 #ifdef	NOTDEF
@@ -176,7 +126,7 @@ int main(int argc, char *argv[])
 
 			if (--nready <= 0)
 				continue;				/* no more readable descriptors */
-		}
+		}/*}}}*/
 
 		for (i = 1; i <= maxi; i++) {	/* check all clients for data */
 			if ( (sockfd = client[i].fd) < 0)
@@ -199,12 +149,7 @@ int main(int argc, char *argv[])
 					client[i].fd = -1;
 				} else {
                     Request req;
-                    trim(buf);
-                    vector<string> ret;
-                    mysql->explode(buf, ret);
-                    if (ret.size() < 6) continue;
-                    req.time = atoi(ret[0].c_str()); req.ip = ret[1]; req.uid = ret[2];
-                    req.preurl = ret[3]; req.qt = ret[4]; req.pn = atoi(ret[5].c_str());
+                    strtoreq(buf, req);
 
                     Slide_window *p_window;
                     if (sw_map.find(req.ip) == sw_map.end()) {
@@ -214,11 +159,17 @@ int main(int argc, char *argv[])
 
                     p_window->push_window(req);
 
-                    p_window->print_window();
+                    //p_window->print_window();
+                    req.print();
+                    cout<<p_window->get_cnt_sec(3)<<endl;
+                    printf("last 2s cnt: %d\n", p_window->get_cnt_sec(2));
+                    printf("last 2m cnt: %d\n", p_window->get_cnt_min(2));
+                    printf("last 24h cnt: %d\n", p_window->get_cnt_hour(24));
+
                     strncpy(buf, "request successed\n", sck_mbuflen);
-                    printf("%s", buf);
                     Writen(sockfd, buf, strlen(buf));
                     memset(buf, 0, sizeof(buf));
+                    printf("cnt: %d\n***********\n", ++cnt);
                 }
 
                 if (--nready <= 0) break;		/* no more readable descriptors */

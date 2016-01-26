@@ -8,18 +8,30 @@
 
 using namespace std;
 
-class Base{
-    int n;
+class Test {
 public:
-    Base(int t) {
-        n = t;
+    ~Test() {
+        cout<<"destruct Test"<<endl;
+    }
+};
+
+class Base{
+public:
+    int n;
+    Base(int i) {
+        n = i;
         cout<<"Base"<<endl;
     }
     Base(const Base &base) {
         n = base.n;
         cout<<"Base reference"<<endl;
     }
+    ~Base() {
+        cout<<"destruct Base"<<endl;
+    }
+    Test test;
 };
+
 
 template <typename T>
 void print_vet(vector<T> vet) {
@@ -27,22 +39,10 @@ void print_vet(vector<T> vet) {
     cout<<endl;
 }
 
+
 int main(int argc, char *argv[])
 {
-    /*istream_iterator<int> in_iter(cin);
-    istream_iterator<int> eof;
-    vector<int>vet(in_iter, eof);*/
-    /*ostream_iterator<string> out_iter(cout, "\n");
-    istream_iterator<string> in_iter(cin), eof;
-    while(in_iter != eof) {
-        *out_iter++ = *in_iter++;
-    }*/
-    //print_vet(vet);
-    string line = "first,middle,last";
-    string ::reverse_iterator rcomma = find(line.rbegin(), line.rend(), ',');
-    cout<<string(line.rbegin(), rcomma)<<endl;
-    //cout<<string(rcomma, line.rbegin())<<endl;
-    cout<<string(rcomma.base(), line.end()) <<endl;
-
+    Base base = 1;
+    Base base2 = 2;
     return 0;
 }
